@@ -68,27 +68,27 @@ export default function ServiceDetailsPage() {
             <Spacing lg='50' md='30'/>
             <Div className="row">
               <Div className="col-lg-6">
-                <Button btnLink='/service/service-details' btnText='Web page design' variant='cs-type2'/>
+                <Button btnLink='' btnText='Web page design' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='eCommerce design' variant='cs-type2'/>
+                <Button btnLink='' btnText='eCommerce design' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Landing page' variant='cs-type2'/>
+                <Button btnLink='' btnText='Landing page' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Email template' variant='cs-type2'/>
+                <Button btnLink='' btnText='Email template' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Application design' variant='cs-type2'/>
+                <Button btnLink='' btnText='Application design' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Illustration' variant='cs-type2'/>
+                <Button btnLink='' btnText='Illustration' variant='cs-type2'/>
                 <Spacing lg='0' md='10'/>
               </Div>
               <Div className="col-lg-6">
-                <Button btnLink='/service/service-details' btnText='Infographic design' variant='cs-type2'/>
+                <Button btnLink='' btnText='Infographic design' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Mobile apps design' variant='cs-type2'/>
+                <Button btnLink='' btnText='Mobile apps design' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Banner, brochure, card' variant='cs-type2'/>
+                <Button btnLink='' btnText='Banner, brochure, card' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Other design' variant='cs-type2'/>
+                <Button btnLink='' btnText='Other design' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
               </Div>
             </Div>
@@ -100,8 +100,8 @@ export default function ServiceDetailsPage() {
       <Spacing lg='145' md='80'/>
       <Div className="container cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
-        <Div className="cs-shape_4"></Div>
-        <Div className="container">
+        {/* <Div className="cs-shape_4"></Div> */}
+        {/* <Div className="container">
           <Div className="row">
             <Div className="col-xl-5 col-lg-6">
               <SectionHeading
@@ -114,13 +114,13 @@ export default function ServiceDetailsPage() {
               <Accordion/>
             </Div>
           </Div>
-        </Div>
+        </Div> */}
       </Div>
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Cta 
           title='Let’s disscuse make <br />something <i>cool</i> together' 
-          btnText='Apply For Meeting' 
+          btnText='Get A Free Audit' 
           btnLink='/contact' 
           bgSrc='/images/cta_bg.jpeg'
         />

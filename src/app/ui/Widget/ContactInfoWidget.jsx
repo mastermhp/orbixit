@@ -34,7 +34,7 @@ export default function ContactInfoWidget({ withIcon, title }) {
           ) : (
             ""
           )}
-          Level - 4, Modina Tower, Bosila,
+          Level - 4, Modina Tower, Bosila, Mohammadpur
           <br />
           Dhaka -1207, Bangladesh
         </li>

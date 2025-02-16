@@ -14,6 +14,7 @@ import TimelineSlider from "@/app/ui/Slider/TimelineSlider";
 import Spacing from "@/app/ui/Spacing";
 import VideoModal from "@/app/ui/VideoModal";
 import Card from "./ui/Card";
+import Button from "./ui/Button";
 
 // Hero Social Links
 const heroSocialLinks = [
@@ -179,7 +180,7 @@ export default function Home() {
       {/* End Portfolio Section */}
 
       {/* Start Awards Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_2">
         <Div className="cs-shape_2">
           <Div />
@@ -199,7 +200,7 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Awards Section */}
 
       {/* Start Video Block Section */}
@@ -219,12 +220,22 @@ export default function Home() {
 
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
+
       <Div className="container">
-        <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
-          variant="cs-style1"
-        />
+        <Div className="row">
+          <Div className="col-xl-4">
+            <SectionHeading
+              title="Awesome team <br/>members"
+              subtitle="Our Team"
+              variant="cs-style1"
+            />
+
+            <Spacing lg="90" md="45" />
+            <Button className="" btnText="View Full Team" btnLink="/team" />
+          </Div>
+          {/* <Div className="col-xl-7 offset-xl-1"></Div> */}
+        </Div>
+
         <Spacing lg="85" md="45" />
         <TeamSlider />
       </Div>
@@ -278,7 +289,7 @@ export default function Home() {
       <Div className="container">
         <Cta
           title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
+          btnText="Get A Free Audit"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />

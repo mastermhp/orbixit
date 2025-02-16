@@ -110,26 +110,26 @@ export default function Sidebar() {
   return (
     <>
       <Div className="cs-sidebar_item">
-        <AuthorWidget 
+        {/* <AuthorWidget 
           src='/images/avatar_1.png'
           name='Kuber Jontra' 
           description='At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
-        />
+        /> */}
       </Div>
       <Div className="cs-sidebar_item">
-        <SearchWidget title='Search'/>
+        {/* <SearchWidget title='Search'/> */}
       </Div>
       <Div className="cs-sidebar_item">
-        <SideMenuWidget title='Categories' data={categoryData}/>
+        {/* <SideMenuWidget title='Categories' data={categoryData}/> */}
       </Div>
       <Div className="cs-sidebar_item">
-        <RecentPost title='Archives' data={recentPostData}/>
+        {/* <RecentPost title='Archives' data={recentPostData}/> */}
       </Div>
       <Div className="cs-sidebar_item">
-        <SideMenuWidget title='Archives' data={archiveData}/>
+        {/* <SideMenuWidget title='Archives' data={archiveData}/> */}
       </Div>
       <Div className="cs-sidebar_item">
-        <TagWidget title='Tags' data={tagData}/>
+        {/* <TagWidget title='Tags' data={tagData}/> */}
       </Div>
     </>
   )

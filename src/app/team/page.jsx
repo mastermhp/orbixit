@@ -73,17 +73,17 @@ const teamData = [
       facebook: '/',
     },
   },
-  // {
-  //   memberImage: '/team/debashish.webp',
-  //   memberName: 'Debashish Roy',
-  //   memberDesignation: 'Graphics Designer',
-  //   memberSocial: {
-  //     linkedin: '/',
-  //     twitter: '/',
-  //     youtube: '/',
-  //     facebook: '/',
-  //   },
-  // },
+  {
+    memberImage: '/team/parash.png',
+    memberName: 'Mehedi Hasan Parash',
+    memberDesignation: 'Full Stack Web Developer',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
 ];
 
 export default function TeamPage() {
@@ -119,7 +119,7 @@ export default function TeamPage() {
         <Div className="container">
           <Cta
             title="Let’s disscuse make <br />something <i>cool</i> together"
-            btnText="Apply For Meeting"
+            btnText="Get A Free Audit"
             btnLink="/contact"
             bgSrc="/images/cta_bg.jpeg"
           />
